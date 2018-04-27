@@ -25,6 +25,7 @@ function currentLine(katzDeliLine){
       var person = ` ${i + 1}. ${katzDeliLine[i]},`;
       result = result + person;
     }
+    result = result.slice(0, -1);
     return "The line is currently:" + result;
   }
 }
