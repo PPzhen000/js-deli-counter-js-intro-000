@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(katzDeliLine){
-  return `Currently serving ${katzDeliLine[0]}`; 
+  return `Currently serving ${katzDeliLine[0]}.`; 
 }
 
 function currentLine(){
